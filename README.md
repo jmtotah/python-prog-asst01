@@ -10,18 +10,18 @@
    In PyCharm, click on the **Python Console** in the bottom bar to open a console.
    
    Write the following types of expressions on the console. When you are done, select all the contents of the Python console and overwrite the contents of the `console.log` file in the repository.
-   
+
+   3. Assignments (e.g. `a = 6` or `string = 'engineering'`). They evaluate to the value of the right-hand side (without displaying the value), but have the side effect that they _declare_ a variable with the name on the left-hand side. In PyCharm, you will see the declared variables in the window on the right.
+
+   4. Expressions with variables (e.g. `a + b` or `'engine' + 'ering'`). "Addition" of strings is _concatenation_.
+
+   5. Complex assignments (e.g. `c = a + 3 + 2*b` or `'deadbeef' * 5`) using the built-in [operators](https://www.tutorialspoint.com/python/python_basic_operators.htm). Try _arithmetic_, _comparison_ (e.g. `a > 8`) _assignment_, _bitwise_ (e.g. `a ^ b`), and _logical_ (e.g. `not (a <= 9)`) operators. Logical and comparison operations evaluate to the _boolean_ values `True` or `False`.
+
+   6. Declare a **list** (e.g. `l = []`), one of the principal built-in complex datatypes in Python, append to it (e.g. `l.append('aes dana')` and `l.append(45)`) several times, and examine the list to see how it accumulates the appended values. You can also see it on the right. **Note:** Appending happens to the _end_ of the list.
+
    1. Numbers, integers or reals. They evaluate to themselves. These are called _primitive datatypes_.
    
    2. Strings, that is, text in _single quotes_ or _double quotes_ (e.g. 'computer' or "computer"). They evaluate to themselves.
-   
-   3. Assignments (e.g. `a = 6` or `string = 'engineering'`). They evaluate to the value of the right-hand side (without displaying the value), but have the side effect that they _declare_ a variable with the name on the left-hand side. In PyCharm, you will see the declared variables in the window on the right.
-   
-   4. Expressions with variables (e.g. `a + b` or `'engine' + 'ering'`). "Addition" of strings is _concatenation_.
-   
-   5. Complex assignments (e.g. `c = a + 3 + 2*b` or `'deadbeef' * 5`) using the built-in [operators](https://www.tutorialspoint.com/python/python_basic_operators.htm). Try _arithmetic_, _comparison_ (e.g. `a > 8`) _assignment_, _bitwise_ (e.g. `a ^ b`), and _logical_ (e.g. `not (a <= 9)`) operators. Logical and comparison operations evaluate to the _boolean_ values `True` or `False`.
-   
-   6. Declare a **list** (e.g. `l = []`), one of the principal built-in complex datatypes in Python, append to it (e.g. `l.append('aes dana')` and `l.append(45)`) several times, and examine the list to see how it accumulates the appended values. You can also see it on the right. **Note:** Appending happens to the _end_ of the list.
 
    7. PyCharm has very rich _autocompletion_. After doing the previous exercise, type `l.` at the console prompt and see the pop-up drop-down menu with all the methods you can execute against the list `l`, along with the familiar `append`. Try a few to see what they do.
    
