@@ -63,3 +63,50 @@ while g < 18:
 
     g = g + 1
 
+
+
+
+
+
+Looping = True
+
+t = 20
+
+while Looping:
+    if t > 11:
+        print('bubbles')
+        t = t - 3
+    elif t < 7:
+        print('yellow')
+    elif t > 10:
+        print('got it')
+        Looping = False
+    elif t - g > 0:
+        print('bad eggs')
+    else:
+        print("all of that was pointless")
+        t = t + 2
+
+
+def my_function():
+    i = 8
+    if i > 0:
+        print("i is greater than zero")
+    elif i < 4:
+        print("i is between 0 and 4")
+
+    else:
+        print("i is greater than or equal to four")
+
+my_function()
+
+
+
+def my_function():
+    print(" ")
+
+my_function()
+
+print(9)
+
+
