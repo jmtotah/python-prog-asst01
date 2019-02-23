@@ -98,15 +98,38 @@ def my_function():
     else:
         print("i is greater than or equal to four")
 
-my_function()
 
 
 
-def my_function():
-    print(" ")
+def add(a, b):
+    return a + b
 
-my_function()
 
-print(9)
+print(add("my", "oh, my"))
+
+
+
+def add(v, r):
+    return v - r
+
+print(add(75, 6))
+
+
+
+looping = True
+
+u = 5
+
+while looping:
+    if u == 6:
+        print("not correct")
+    elif u < 3:
+        print("noob")
+    elif u > 8:
+        my_function()
+        looping = False
+    else:
+        print("I failed")
+        u = u + 2
 
 
