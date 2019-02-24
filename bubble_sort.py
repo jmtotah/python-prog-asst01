@@ -16,10 +16,11 @@ def bubble_sort(arr):
             # than the next element
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                print(arr)
 
 
 # Driver code to test above
-arr = [64, 34, 25, 12, 22, 11, 90]
+arr = ['good', 'house', 'big', 'dog', 'yellow', 'horse', 'beer']
 
 bubble_sort(arr)
 
